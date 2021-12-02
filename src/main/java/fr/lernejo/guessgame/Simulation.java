@@ -3,20 +3,22 @@ package fr.lernejo.guessgame;
 import fr.lernejo.logger.Logger;
 import fr.lernejo.logger.LoggerFactory;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class Simulation {
     private final Logger logger = LoggerFactory.getLogger("simulation");
-    private final Player player;  //TODO add variable type
-    private long numberToGuess; //TODO add variable type
+    private final Player player;
+    private long numberToGuess;
 
     public Simulation(Player player) {
-        //TODO implement me
         this.player = player;
-        long rand = (long) (Math.random() * 100);
-        initialize(rand);
-
     }
 
     public void initialize(long numberToGuess) {
+        if (numberToGuess < 1 || numberToGuess > 10000) {
+            throw new IllegalArgumentException("Le nombre donné doit être comprit entre 1 et 10 000.");
+        }
         this.numberToGuess = numberToGuess;
     }
 
@@ -24,31 +26,42 @@ public class Simulation {
      * @return true if the player have guessed the right number
      */
     private boolean nextRound() {
-        boolean lowerOrGreater;
-        long playerInput = player.askNextGuess();
-        if(playerInput == numberToGuess){
-            System.out.println("Bien joué");
-            this.logger.log("Le joueur a réussi à trouver le nombre");
-            System.exit(0);
+        long nextGuess = player.askNextGuess();
+
+        if (nextGuess == numberToGuess) {
+            logger.log("Le joueur a trouvé le bon nombre.");
             return true;
+        } else if (nextGuess > numberToGuess) {
+            player.respond(false);
         } else {
-            if (playerInput > numberToGuess) {
-                lowerOrGreater = true;
-                player.respond(lowerOrGreater);
-                this.logger.log("Le joueur a saisi un nombre trop grand");
-                return false;
-            } else {
-                lowerOrGreater = false;
-                player.respond(lowerOrGreater);
-                this.logger.log("Le joueur a saisi un nombre trop petit");
-                return false;
-            }
+            player.respond(true);
         }
+        logger.log("Le joueur s'est trompé.");
+        return false;
     }
 
-    public void loopUntilPlayerSucceed() {
-        while(true) {
-            nextRound();
+    public void loopUntilPlayerSucceed(long maxRounds) {
+        final long startTime = System.currentTimeMillis();
+        boolean isWon = false;
+
+        for (long i = 0; i < maxRounds; i++) {
+            logger.log("nouvelle tentative");
+            if (nextRound()) {
+                // On affiche le nombre de coups seuleument si le joueur gagne
+                logger.log("Partie terminée en " + i + " coups");
+                isWon = true;
+                break;
+            }
         }
+        final long endTime = System.currentTimeMillis();
+        final long gameDuration = endTime - startTime;
+        SimpleDateFormat dateFormat = new SimpleDateFormat("mm:ss.SSS");
+
+        if (isWon) {
+            logger.log("Le joueur a gagné la partie.");
+        } else {
+            logger.log("Le joueur a perdu la partie.");
+        }
+        logger.log("Durée de la partie: " + dateFormat.format(new Date(gameDuration)));
     }
 }
