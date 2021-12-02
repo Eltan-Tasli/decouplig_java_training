@@ -4,6 +4,7 @@ import fr.lernejo.logger.Logger;
 import fr.lernejo.logger.LoggerFactory;
 
 public class HumanPlayer implements Player{
+    private Logger logger = LoggerFactory.getLogger("player");
     public HumanPlayer() {
         Logger logger = LoggerFactory.getLogger("player");
     }
@@ -18,12 +19,9 @@ public class HumanPlayer implements Player{
     }
 
     @Override
-    public void respond(boolean lowerOrGreater) {
-        if(lowerOrGreater == true){
-            System.out.println("Ton input est trop grand");
-        } else {
-            System.out.println("Ton input est trop petit");
-        }
-
+    public void respond( boolean lowerOrGreater ) {
+        logger.log( "Input number is " + ( lowerOrGreater ? "lower" : "greater") + " than the number to guess" );
     }
+
+
 }
