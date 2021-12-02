@@ -52,3 +52,111 @@
 2021-12-02 14:33:31.355 simulation Partie terminée en 12 coups
 2021-12-02 14:33:31.448 simulation Le joueur a gagné la partie.
 2021-12-02 14:33:31.452 simulation Durée de la partie: 00:00.148
+2021-12-02 14:43:29.298 simulation nouvelle tentative
+2021-12-02 14:43:29.351 player Le joueur a choisit 5000
+2021-12-02 14:43:29.352 player Le nombre cherché est plus petit
+2021-12-02 14:43:29.353 simulation Le joueur s'est trompé.
+2021-12-02 14:43:29.354 simulation nouvelle tentative
+2021-12-02 14:43:29.355 player Le joueur a choisit 2500
+2021-12-02 14:43:29.357 player Le nombre cherché est plus petit
+2021-12-02 14:43:29.358 simulation Le joueur s'est trompé.
+2021-12-02 14:43:29.358 simulation nouvelle tentative
+2021-12-02 14:43:29.359 player Le joueur a choisit 1250
+2021-12-02 14:43:29.360 player Le nombre cherché est plus petit
+2021-12-02 14:43:29.361 simulation Le joueur s'est trompé.
+2021-12-02 14:43:29.363 simulation nouvelle tentative
+2021-12-02 14:43:29.364 player Le joueur a choisit 625
+2021-12-02 14:43:29.365 player Le nombre cherché est plus petit
+2021-12-02 14:43:29.366 simulation Le joueur s'est trompé.
+2021-12-02 14:43:29.367 simulation nouvelle tentative
+2021-12-02 14:43:29.368 player Le joueur a choisit 313
+2021-12-02 14:43:29.369 player Le nombre cherché est plus petit
+2021-12-02 14:43:29.370 simulation Le joueur s'est trompé.
+2021-12-02 14:43:29.371 simulation nouvelle tentative
+2021-12-02 14:43:29.372 player Le joueur a choisit 157
+2021-12-02 14:43:29.372 player Le nombre cherché est plus petit
+2021-12-02 14:43:29.373 simulation Le joueur s'est trompé.
+2021-12-02 14:43:29.374 simulation nouvelle tentative
+2021-12-02 14:43:29.375 player Le joueur a choisit 79
+2021-12-02 14:43:29.376 player Le nombre cherché est plus petit
+2021-12-02 14:43:29.377 simulation Le joueur s'est trompé.
+2021-12-02 14:43:29.378 simulation nouvelle tentative
+2021-12-02 14:43:29.379 player Le joueur a choisit 40
+2021-12-02 14:43:29.380 player Le nombre cherché est plus petit
+2021-12-02 14:43:29.381 simulation Le joueur s'est trompé.
+2021-12-02 14:43:29.383 simulation nouvelle tentative
+2021-12-02 14:43:29.384 player Le joueur a choisit 20
+2021-12-02 14:43:29.385 player Le nombre cherché est plus petit
+2021-12-02 14:43:29.386 simulation Le joueur s'est trompé.
+2021-12-02 14:43:29.387 simulation nouvelle tentative
+2021-12-02 14:43:29.388 player Le joueur a choisit 10
+2021-12-02 14:43:29.389 player Le nombre cherché est plus petit
+2021-12-02 14:43:29.390 simulation Le joueur s'est trompé.
+2021-12-02 14:43:29.391 simulation nouvelle tentative
+2021-12-02 14:43:29.392 player Le joueur a choisit 5
+2021-12-02 14:43:29.393 player Le nombre cherché est plus grand
+2021-12-02 14:43:29.395 simulation Le joueur s'est trompé.
+2021-12-02 14:43:29.396 simulation nouvelle tentative
+2021-12-02 14:43:29.397 player Le joueur a choisit 7
+2021-12-02 14:43:29.398 player Le nombre cherché est plus grand
+2021-12-02 14:43:29.399 simulation Le joueur s'est trompé.
+2021-12-02 14:43:29.400 simulation nouvelle tentative
+2021-12-02 14:43:29.401 player Le joueur a choisit 8
+2021-12-02 14:43:29.402 simulation Le joueur a trouvé le bon nombre.
+2021-12-02 14:43:29.405 simulation Partie terminée en 12 coups
+2021-12-02 14:43:29.497 simulation Le joueur a gagné la partie.
+2021-12-02 14:43:29.501 simulation Durée de la partie: 00:00.144
+2021-12-02 14:44:07.947 simulation nouvelle tentative
+2021-12-02 14:44:08.006 player Le joueur a choisit 5000
+2021-12-02 14:44:08.008 player Le nombre cherché est plus petit
+2021-12-02 14:44:08.010 simulation Le joueur s'est trompé.
+2021-12-02 14:44:08.011 simulation nouvelle tentative
+2021-12-02 14:44:08.013 player Le joueur a choisit 2500
+2021-12-02 14:44:08.014 player Le nombre cherché est plus petit
+2021-12-02 14:44:08.016 simulation Le joueur s'est trompé.
+2021-12-02 14:44:08.017 simulation nouvelle tentative
+2021-12-02 14:44:08.019 player Le joueur a choisit 1250
+2021-12-02 14:44:08.020 player Le nombre cherché est plus petit
+2021-12-02 14:44:08.021 simulation Le joueur s'est trompé.
+2021-12-02 14:44:08.023 simulation nouvelle tentative
+2021-12-02 14:44:08.024 player Le joueur a choisit 625
+2021-12-02 14:44:08.025 player Le nombre cherché est plus petit
+2021-12-02 14:44:08.026 simulation Le joueur s'est trompé.
+2021-12-02 14:44:08.028 simulation nouvelle tentative
+2021-12-02 14:44:08.029 player Le joueur a choisit 313
+2021-12-02 14:44:08.030 player Le nombre cherché est plus petit
+2021-12-02 14:44:08.032 simulation Le joueur s'est trompé.
+2021-12-02 14:44:08.034 simulation nouvelle tentative
+2021-12-02 14:44:08.036 player Le joueur a choisit 157
+2021-12-02 14:44:08.037 player Le nombre cherché est plus petit
+2021-12-02 14:44:08.038 simulation Le joueur s'est trompé.
+2021-12-02 14:44:08.040 simulation nouvelle tentative
+2021-12-02 14:44:08.041 player Le joueur a choisit 79
+2021-12-02 14:44:08.043 player Le nombre cherché est plus petit
+2021-12-02 14:44:08.044 simulation Le joueur s'est trompé.
+2021-12-02 14:44:08.045 simulation nouvelle tentative
+2021-12-02 14:44:08.047 player Le joueur a choisit 40
+2021-12-02 14:44:08.049 player Le nombre cherché est plus petit
+2021-12-02 14:44:08.050 simulation Le joueur s'est trompé.
+2021-12-02 14:44:08.052 simulation nouvelle tentative
+2021-12-02 14:44:08.054 player Le joueur a choisit 20
+2021-12-02 14:44:08.055 player Le nombre cherché est plus petit
+2021-12-02 14:44:08.057 simulation Le joueur s'est trompé.
+2021-12-02 14:44:08.058 simulation nouvelle tentative
+2021-12-02 14:44:08.059 player Le joueur a choisit 10
+2021-12-02 14:44:08.060 player Le nombre cherché est plus petit
+2021-12-02 14:44:08.062 simulation Le joueur s'est trompé.
+2021-12-02 14:44:08.063 simulation nouvelle tentative
+2021-12-02 14:44:08.065 player Le joueur a choisit 5
+2021-12-02 14:44:08.066 player Le nombre cherché est plus grand
+2021-12-02 14:44:08.067 simulation Le joueur s'est trompé.
+2021-12-02 14:44:08.069 simulation nouvelle tentative
+2021-12-02 14:44:08.070 player Le joueur a choisit 7
+2021-12-02 14:44:08.072 player Le nombre cherché est plus grand
+2021-12-02 14:44:08.073 simulation Le joueur s'est trompé.
+2021-12-02 14:44:08.074 simulation nouvelle tentative
+2021-12-02 14:44:08.076 player Le joueur a choisit 8
+2021-12-02 14:44:08.077 simulation Le joueur a trouvé le bon nombre.
+2021-12-02 14:44:08.081 simulation Partie terminée en 12 coups
+2021-12-02 14:44:08.166 simulation Le joueur a gagné la partie.
+2021-12-02 14:44:08.169 simulation Durée de la partie: 00:00.177
